@@ -1,24 +1,31 @@
-<table class="style">
-    <tr>
-      <th>Course name</th>
-      <th>Course code</th>
-      <th>Delete</th>
-
-    </tr>
-    <tr *ngFor="let item of data; let i = index">
-      <td>{{item.name}}</td>
-      <td>{{item.code}}</td>
-      <td> <button type=button  onclick=productDelete(this);   class='btn btn-default'> </button><td>
-      <td> <button (click) = "deleteRow(item._id)" ></button></td>
-    </tr>
+  <h2>List of Course</h2>
+  <br>
+  <table class="table">
+    <caption>List of course</caption>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Course name</th>
+        <th scope="col">Course code</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of data; let i = index">
+            <td>{{i+1}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.code}}</td>   
+            <td>
+                <button type="button" class="btn btn-danger" (click)="deleteRow(item._id)">Delete</button>
+                </td>   
+               <!--<td>
+                    <button type="button" class="btn btn-info" (click)="onEdit(i)">Edit</button>
+                    </td>--> 
+          </tr>
+    </tbody>
   </table>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <span class="navbar-toggler-icon"></span>
+
+
   
-	<a class="navbar-brand" href="#">Navbar</a>
-
-	
-
-</nav>

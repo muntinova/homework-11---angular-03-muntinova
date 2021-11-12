@@ -1,5 +1,5 @@
-table, th, td {
-    border:1px solid black;
-  }
-
-  @import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+    margin-top:20px;
+    background:#f8f8f8
+}
