@@ -870,3 +870,13 @@
 ::1 - - [12/Nov/2021:20:03:35 +0000] "OPTIONS /course/618ec18d03c0ccf9ed1beb4c HTTP/1.1" 204 0
 ::1 - - [12/Nov/2021:20:03:35 +0000] "DELETE /course/618ec18d03c0ccf9ed1beb4c HTTP/1.1" 200 37
 ::1 - - [12/Nov/2021:20:03:35 +0000] "GET /course/ HTTP/1.1" 200 523
+::1 - - [12/Nov/2021:20:13:33 +0000] "GET /course/ HTTP/1.1" 304 -
+::1 - - [12/Nov/2021:20:50:10 +0000] "GET /course/ HTTP/1.1" 304 -
+::1 - - [12/Nov/2021:20:50:19 +0000] "OPTIONS /course/618ec18d03c0ccf9ed1beb4d HTTP/1.1" 204 0
+::1 - - [12/Nov/2021:20:50:19 +0000] "DELETE /course/618ec18d03c0ccf9ed1beb4d HTTP/1.1" 200 37
+::1 - - [12/Nov/2021:20:50:19 +0000] "GET /course/ HTTP/1.1" 200 436
+::1 - - [12/Nov/2021:20:50:20 +0000] "OPTIONS /course/618ec18d03c0ccf9ed1beb4f HTTP/1.1" 204 0
+::1 - - [12/Nov/2021:20:50:20 +0000] "DELETE /course/618ec18d03c0ccf9ed1beb4f HTTP/1.1" 200 37
+::1 - - [12/Nov/2021:20:50:20 +0000] "GET /course/ HTTP/1.1" 200 349
+::1 - - [12/Nov/2021:21:09:51 +0000] "GET /course/ HTTP/1.1" 304 -
+::1 - - [12/Nov/2021:21:09:55 +0000] "GET /course/ HTTP/1.1" 304 -
