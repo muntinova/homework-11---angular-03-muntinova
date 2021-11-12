@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class CourseService {
-  url: string = "http://localhost:4000/students/";
+  url: string = "http://localhost:4000/course/";
 
   constructor(private http: HttpClient) { }
 
